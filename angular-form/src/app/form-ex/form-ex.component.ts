@@ -29,7 +29,15 @@ export class FormExComponent implements OnInit {
 
   // convenience getter for easy access to form fields
   get f() { return this.registerForm.controls; }
-
+  // angular ver 13
+  /*
+  f(control: string) {
+    return this.registerForm.controls[control];
+  }
+  get frm() {
+    return this.registerForm;
+  }
+  */
   onSubmit() {
       this.submitted = true;
 
