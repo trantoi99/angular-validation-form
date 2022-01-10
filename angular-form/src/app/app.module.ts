@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 import { FormExComponent } from './form-ex/form-ex.component';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { FormExComponent } from './form-ex/form-ex.component';
   imports: [
     BrowserModule,
     FormsModule,
+    AppRoutingModule,
     ReactiveFormsModule
   ],
   providers: [],
